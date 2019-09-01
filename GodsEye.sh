@@ -27,17 +27,17 @@ read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' op
 
 
 if [[ $option == 1 || $option == 01 ]]; then
-server="facebook"
+server="instgram"
 start1
 
 elif [[ $option == 2 || $option == 02 ]]; then
-server="instagram"
+server="facebook"
 start1
 elif [[ $option == 3 || $option == 03 ]]; then
-server="twitter"
+server="snapchat"
 start1
 elif [[ $option == 4 || $option == 04 ]]; then
-server="snapchat"
+server="twitter"
 start1
 elif [[ $option == 5 || $option == 05 ]]; then
 server="github"
