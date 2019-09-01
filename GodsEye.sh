@@ -47,7 +47,7 @@ server="google"
 start1
 
 elif [[ $option == 7 || $option == 07 ]]; then
-server="spotify"
+server="spotify
 start1
 
 elif [[ $option == 8 || $option == 08 ]]; then
@@ -135,8 +135,6 @@ printf "\e[1;77m       ██      ██ ██   ██ ██  ██        
 printf "\e[1;77m       ██ ████ ██ ██   ██ ██  ███████     ███████   ████   ███████  \e[0m\n"
 printf "\e[1;77m       ██   ██ ██ ██   ██ ██       ██     ██         ██    ██       \e[0m\n"
 printf "\e[1;77m       ███████ █████  ██████  ███████     ███████    ██    ███████  \e[0m\n"
-
-                                             																						     																					   																						  																					\e[0m\n"
 printf "\n"
 printf "\e[1;93m       .:.:.\e[0m\e[1;77m  Phishing Tool coded by:  @0secdevil \e[0m\e[1;93m.:.:.\e[0m\n"
 printf "\n"
