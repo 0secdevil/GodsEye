@@ -6,7 +6,8 @@
 
 Phishing Tool for Instagram, Facebook, Twitter, Snapchat, Github, Yahoo, Protonmail, Google, Spotify, Netflix, Linkedin, Wordpress, Origin, Steam, Microsoft, InstaFollowers, Pinterest +1 customizable
 https://avatars3.githubusercontent.com/u/54764832?s=460&v=4
-### Features:
+
+
 ### Port Forwarding using Ngrok or Serveo
 
 
