@@ -9,7 +9,6 @@ https://avatars3.githubusercontent.com/u/54764832?s=460&v=4
 ### Features:
 ### Port Forwarding using Ngrok or Serveo
 
-## Legal disclaimer:
 
 
 ### Usage:
